@@ -1,67 +1,40 @@
-body{
-
-    font-family: Arial, Helvetica, sans-serif;
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
-}
-
-header{
-    background-color: rgb(231, 161, 161);
-    color: white;
-    padding: 10px 20px;
+  }
+  
+  /* Navigation bar styling */
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-header select {
-    padding: 5px;
-    font-size: 16px;
-
-}
-main{
-    padding: 20px; 
-}
-
-.product-list{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.product{
-    border: 1px solid#ddd;
-    border-radius: 5px;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-    background-color: #f9f9f9;
-}
-
-.product{
-    margin: 10px 0;
-}
-
-.product button{
-    background-color: #282828;
-    color: #ddd;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-
-}
-
-.product button:hover{
-    background-color: #212121;
-}
-
-
-footer{
-    background-color: #f8f8f8;
-    text-align: center;
-    padding: 10px;
-    border-top: 1px solid white;
-    margin-top: 20px;
-}
+    gap: 15px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
